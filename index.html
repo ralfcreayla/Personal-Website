@@ -76,7 +76,7 @@
                 <p class="title">Projects</p>
                 <img class="projectimage" src="./assets/underconstruction.png">
               </div>
-              <form class="nes-container with-title is-centered grid7"  id="contactme">
+              <form class="nes-container with-title is-centered grid7"  id="contactme" onsubmit="sendEmail(); reset(); return false;">
                     <div class="grid70">Contact Me <img src="./assets/mail.gif" style="width: 5%"></div>
                     <div class="grid7a">
                     <label for="name_field" class="inputs">Name</label>
@@ -90,7 +90,7 @@
 
                      <div class="grid7c">
                     <label for="name_field" class="inputs">Message</label>
-                    <input type="text" id="name_field" class="nes-input" style="padding: 50px">
+                    <input type="text" id="message" class="nes-input" style="padding: 50px">
                      </div>
 
                      <div class="grid7button">
