@@ -29,7 +29,7 @@ Email.send({
     SecureToken : "c7c76178-1f49-4246-b80f-1ab1ed4c6b26",
     To : 'ralfcreayla@gmail.com',
     From : document.getElementById("grid7b").value,
-    Subject : "New Message from " + document.getElementById("grid7a").value,
+    Subject : "New Message from " + document.getElementById("grid7a").value +" from your website",
     Body : document.getElementById("message").value,
 }).then(
   message => alert(message)
