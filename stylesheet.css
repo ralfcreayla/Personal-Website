@@ -83,7 +83,7 @@
 
 
 /* WORK  */
-.work1,.work2,.work3,.work4,.work5{
+.lists div{
     display: flex;
     align-items: center;
     padding-top: 10px;
@@ -306,7 +306,7 @@
 }
 
 /* SKILLS */
-.skills1,.skills2,.skills3,.skills4,.skills5,.skills6{
+#skills div{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
@@ -398,7 +398,7 @@
     }
 
     .lists div{
-        font-size: 10px;
+        font-size: 11px;
     }
     
 
