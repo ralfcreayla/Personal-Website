@@ -312,6 +312,11 @@
     align-items: center;
 }
 
+.educ1,.educ2{
+    font-size: 14px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 550px) {
     .navbar {
         flex-direction: column;
@@ -403,6 +408,9 @@
     }
     .imagecomputer{
         width:400px;
+    }
+    .educ1,.educ2{
+        font-size: 10px;
     }
 
 }
