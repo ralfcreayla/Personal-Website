@@ -140,6 +140,35 @@
     grid-column: 1/3;
     grid-row: 7/9;
     
+    
+}
+
+
+
+.grid6a{
+    display: flex;
+
+}
+
+
+
+.projectimage1,.projectimage2{
+    
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 30%;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+
+.projectimage1:hover,.projectimage2:hover{
+    transform: scale(1.3);
 }
 
 .grid7{
@@ -207,21 +236,7 @@
 
 
 
-.projectimage{
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
 
-.projectimage:hover{
-    transform: scale(1.1);
-}
 
 .imagecomputer{
             width:500px;

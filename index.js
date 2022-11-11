@@ -19,7 +19,7 @@ var i = 0;
 		    i++;
 		    setTimeout(typeWriter, speed);
 		  }
-		    //console.log(document.getElementById("text").innerHTML);
+		    
 		}
 
 typeWriter();
