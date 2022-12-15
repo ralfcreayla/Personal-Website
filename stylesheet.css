@@ -145,6 +145,7 @@
 
 .grid6a{
     display: flex;
+    justify-content: space-around;
 
 }
 
@@ -153,16 +154,20 @@
 .projectimage1,.projectimage2{
     
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    
-    width: 30%;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
     -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
 
+.grid6ah{
+    color:white;
+}
 
 
 .projectimage1:hover,.projectimage2:hover{
