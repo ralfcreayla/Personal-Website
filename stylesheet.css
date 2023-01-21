@@ -156,8 +156,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     object-fit: contain;
     -webkit-transform: scale(1);
 	transform: scale(1);
